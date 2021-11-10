@@ -4,22 +4,33 @@ let para3 = document.getElementById('para3');
 let para4 = document.getElementById('para4');
 let para5 = document.getElementById('para5');
 
+let span1a = document.getElementById('spanTest1a');
+let span1b = document.getElementById('spanTest1b');
+let span2a = document.getElementById('spanTest2a');
+let span2b = document.getElementById('spanTest2b');
+let span3a = document.getElementById('spanTest3a');
+let span3b = document.getElementById('spanTest3b');
+let span4a = document.getElementById('spanTest4a');
+let span4b = document.getElementById('spanTest4b');
+let span5a = document.getElementById('spanTest5a');
+let span5b = document.getElementById('spanTest5b');
+
 para1.style.color = "purple";
 para2.style.color = "white";
 para3.style.color = "purple";
 para4.style.color = "white";
 para5.style.color = "purple";
 
-document.getElementById('spanTest1a').style.backgroundColor = "white";
-document.getElementById('spanTest1b').style.backgroundColor = "white";
-document.getElementById('spanTest2a').style.backgroundColor = "blue";
-document.getElementById('spanTest2b').style.backgroundColor = "blue";
-document.getElementById('spanTest3a').style.backgroundColor = "white";
-document.getElementById('spanTest3b').style.backgroundColor = "white";
-document.getElementById('spanTest4a').style.backgroundColor = "blue";
-document.getElementById('spanTest4b').style.backgroundColor = "blue";
-document.getElementById('spanTest5a').style.backgroundColor = "white";
-document.getElementById('spanTest5b').style.backgroundColor = "white";
+span1a.style.backgroundColor = "white";
+span1b.style.backgroundColor = "white";
+span2a.style.backgroundColor = "blue";
+span2b.style.backgroundColor = "blue";
+span3a.style.backgroundColor = "white";
+span3b.style.backgroundColor = "white";
+span4a.style.backgroundColor = "blue";
+span4b.style.backgroundColor = "blue";
+span5a.style.backgroundColor = "white";
+span5b.style.backgroundColor = "white";
 
 para1.style.width = "50%";
 para2.style.width = "50%";
@@ -50,3 +61,4 @@ document.getElementById('spanTest4b').style.direction = 'rtl';
 document.getElementById('spanTest5a').style.direction = 'rtl';
 document.getElementById('spanTest5b').style.direction = 'rtl';
 
+para5.innerHTML = "Mon nouveau texte !";
